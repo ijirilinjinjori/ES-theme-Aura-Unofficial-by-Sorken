@@ -194,6 +194,7 @@
 <visible>true</visible>
 <path>{random}</path>
 <default>./art/GLICTH NO SIGNA.mp4</default>  
+<path>./art/sistemas/videos/${system.theme}.mp4</path> 
 <rotation>0</rotation>  
 <roundCorners>0.01</roundCorners>     
 <pos>0.500 0.500</pos>

@@ -183,7 +183,8 @@
 <video name="video" extra="true">
 <visible>true</visible>
 <path>{random}</path>
-<default>./art/GLICTH NO SIGNA.mp4</default>  
+<default>./art/GLICTH NO SIGNA.mp4</default>
+<path>./art/sistemas/videos/${system.theme}.mp4</path>  
 <effect>none</effect> 
 <rotation>0</rotation>  
 <roundCorners>0.0</roundCorners>     
