@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>  
+<view name="system">
+
+<carousel name="systemcarousel">
+<defaultTransition>instant</defaultTransition>
+<zIndex>74</zIndex>	      
+<type>horizontal</type>
+<linearSmooth>true</linearSmooth>
+<pos>-0.7336 0.0</pos>
+<size>1.85 1</size>
+<logoScale>1.13</logoScale>
+<logoSize>0.105 0.260</logoSize>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<maxLogoCount>15</maxLogoCount>
+<logoRotation>30</logoRotation>
+<logoRotationOrigin>3.26 0.5</logoRotationOrigin>
+<logoAlignment>bottom</logoAlignment> 
+<scrollSound>./art/sistemas/sonidos/aura.wav</scrollSound>
+<systemInfoDelay>700</systemInfoDelay>
+<systemInfoCountOnly>false</systemInfoCountOnly>
+<transitionSpeed>650</transitionSpeed>
+<minLogoOpacity>0.6</minLogoOpacity>
+<logoSize verticalScreen="true">0.35 0.1</logoSize>
+<maxLogoCount verticalScreen="true">11</maxLogoCount> 
+<pos verticalScreen="true">-0.7336 -0.120</pos>     
+</carousel>
+
+<image name="logo">
+<path>./art/sistemas/covers/default.png</path>
+<path>./art/sistemas/covers/${system.theme}.png</path>
+</image>
+
+<image name="logo">
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+
+<storyboard event="activate">
+<animation property="scale" to="0" begin="0" duration="0"/>
+</storyboard>
+</image>
+
+<text name="logoText">
+<fontSize>0.044</fontSize>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>${baseColor}</color>
+<glowColor>ffffff</glowColor>
+<glowSize>1</glowSize>
+<lineSpacing>1.0</lineSpacing>
+</text>
+
+<text name="systemInfo">
+<visible>true</visible>
+<systemInfoDelay>300</systemInfoDelay>
+<pos>0.0  -0.045</pos>
+<size>0.420 0.30</size>
+<fontSize>0.023</fontSize>
+<fontPath>./art/sistemas/fuentes/RobotoCondensed-Bold.ttf</fontPath>
+<backgroundColor>00000000</backgroundColor>
+<color>55555599</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<reflexion>0.0 0.0</reflexion>
+<rotation>0</rotation> 
+<zIndex>90</zIndex>
+<pos verticalScreen="true">0.430  0.380</pos>
+</text>
+
+<sound name="bgsound">
+<path>./art/sistemas/musica/${system.theme}.ogg</path>
+<path>./art/sistemas/musica/${system.theme}.wav</path>
+<path>./art/sistemas/musica/${system.theme}.mp3</path>
+</sound>
+
+<image name="logosystem" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.214 0.473</pos>     
+<maxSize>0.1233 0.17590</maxSize>
+<color>ffffff</color>
+<rotation>0</rotation>  
+<path>./art/sistemas/logos/${system.theme}.png</path>
+<path>./art/sistemas/logos/${system.theme}.svg</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>271</zIndex>
+<pos verticalScreen="true">0.663 0.490</pos>
+<maxSize verticalScreen="true">0.1533 0.179590</maxSize>
+
+</image>
+
+<image name="logo1system" extra="true">
+<visible>true</visible>
+<pos>0.191 0.829</pos>
+<maxSize>0.110 0.296</maxSize>
+<color>ffffff</color>
+<origin>0.5 0.5</origin>
+<rotation>0</rotation>  
+<path>./art/sistemas/covers/default.png</path>
+<path>./art/sistemas/covers/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<roundCorners>0.01</roundCorners> 
+<zIndex>171</zIndex>
+<pos verticalScreen="true">0.191 0.820</pos>
+<maxSize verticalScreen="true">0.150 0.310</maxSize>
+<storyboard repeat="1">
+<animation property="scale" to="1.140" begin="0300" duration="0200" mode="easeOut" autoreverse="false" repeat="1"/>
+</storyboard>
+</image>
+
+<image name="coverglass" extra="true">
+<visible>true</visible>
+<pos>0.191 0.829</pos>
+<maxSize>0.117 0.304</maxSize>
+<color>ffffff</color>
+<origin>0.5 0.5</origin>
+<rotation>0</rotation>  
+<path>./art/sistemas/fondos/coverdvd2.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>174</zIndex>
+<pos verticalScreen="true">0.191 0.820</pos>
+<maxSize verticalScreen="true">0.155 0.315</maxSize>
+<storyboard repeat="1">
+<animation property="scale" to="1.140" begin="0300" duration="0200" mode="easeOut" autoreverse="false" repeat="1"/>
+</storyboard>
+</image>
+
+<image name="fondo" extra="true">
+<tile>false</tile>
+<visible>true</visible>
+<color>ffffff</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/blur/default.png</path>
+<path>./art/sistemas/blur/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>70</zIndex>
+</image>
+
+<image name="desaturado" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="coverglassvideo" extra="true">
+<visible>true</visible>
+<pos>0.213 0.315</pos>
+<size>0.143 0.4024</size>
+<color>ffffff</color>
+<origin>0.5 0.5</origin>
+<rotation>0</rotation>  
+<path>./art/sistemas/fondos/coverdvd2.png</path>
+<linearSmooth>true</linearSmooth>
+<pos verticalScreen="true">0.670 0.395</pos>
+<size verticalScreen="true">0.315 0.255</size>
+<zIndex>174</zIndex>
+
+</image>
+
+<image name="capaopacavertical" extra="true">
+<tile>false</tile>
+<visible>false</visible>
+<color>ffffff</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/opacoaura3vertical.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>79</zIndex>
+<visible verticalScreen="true">true</visible>
+</image>
+
+
+<image name="capaopaca" extra="true">
+<tile>false</tile>
+<visible>true</visible>
+<color>ffffff</color>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/opacoaura3.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>79</zIndex>
+<visible verticalScreen="true">false</visible>
+</image>
+
+<video name="video" extra="true">
+<visible>true</visible>
+<path>{random}</path>
+<default>./art/GLICTH NO SIGNA.mp4</default>  
+<rotation>0</rotation>  
+<roundCorners>0.01</roundCorners>     
+<pos>0.633 0.315</pos>
+<maxSize>0.450 0.4384</maxSize>
+<origin>0.5 0.5</origin>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>
+<zIndex>173</zIndex>
+<storyboard repeat="1">
+<animation property="scale" to="0" begin="0" duration="0" mode="easeOut" autoreverse="false" repeat="1"/>
+<animation property="scale" to="1" begin="400" duration="400" mode="easeOut" autoreverse="false" repeat="1"/>
+</storyboard>
+<pos verticalScreen="true">0.191 0.820</pos>
+<size verticalScreen="true">0.169 0.143</size>
+</video>
+
+<text name="cheevosUser" extra="true">
+<fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
+<text>Ⓒheevos-Ⓤsername: ★${cheevos.username}☆</text>
+<pos>0.250 0.008</pos>
+<size>0.500 0.0275</size>
+<origin>0 0</origin>
+<alignment>left</alignment>
+<color>555555</color>
+<fontSize>0.026</fontSize>
+<zIndex>174</zIndex>
+<pos verticalScreen="true">0.290 0.070</pos>
+</text>
+
+<image name="controller" extra="true">
+<pos>0.148 0.160</pos>
+<maxSize>0.13 0.15</maxSize>
+<color>555353</color>
+<rotation>0</rotation> 
+<path>./art/sistemas/controllers/default.png</path> 
+<path>./art/sistemas/controllers/${system.theme}.png</path>
+<path>./art/sistemas/controllers/${system.theme}.svg</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>571</zIndex>
+
+<maxSize verticalScreen="true">0.20 0.22</maxSize>
+<pos verticalScreen="true">0.575 0.360</pos>
+</image>
+
+<helpsystem name="help">
+<visible>true</visible>
+<fontSize>0.020</fontSize>
+<fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
+<textColor>555555</textColor>
+<iconColor>555555</iconColor>
+<fontSize>0.020</fontSize>
+<pos>2.353 2.460</pos>
+<zIndex>190</zIndex>
+</helpsystem>	
+   
+<image name="jugados" extra="static">
+<visible>true</visible>
+<path>./art/sistemas/icons/cantidad.png</path>
+<pos>0.343 0.440</pos>
+<maxSize>0.044</maxSize>
+<color>555353</color>
+<alignment>left</alignment>
+<linearSmooth>true</linearSmooth>
+<zIndex>250</zIndex>
+<pos verticalScreen="true">0.170 0.440</pos>
+</image>
+ 
+<image name="vecesjugados" extra="static">
+<visible>true</visible>
+<path>./art/sistemas/icons/veces jugados.png</path>
+<pos>0.344 0.220</pos>
+<maxSize>0.054</maxSize>
+<color>555353</color>
+<alignment>left</alignment>
+<linearSmooth>true</linearSmooth>
+<zIndex>250</zIndex>
+<pos verticalScreen="true">0.170 0.220</pos>
+</image>
+  
+<image name="totalgames" extra="static">
+<visible>true</visible>
+<path>./art/sistemas/icons/gamepad.svg</path>
+<pos>0.342 0.330</pos>
+<maxSize>0.044</maxSize>
+<color>555353</color>
+<alignment>left</alignment>
+<linearSmooth>true</linearSmooth>
+<zIndex>250</zIndex>
+<pos verticalScreen="true">0.170 0.330</pos>
+</image>
+
+<image name="favoritos" extra="static">
+<visible>true</visible>
+<path>./art/sistemas/icons/favorite.svg</path>
+<pos>0.340 0.110</pos>
+<maxSize>0.044</maxSize>
+<color>555353</color>
+<alignment>left</alignment>
+<linearSmooth>true</linearSmooth>
+<zIndex>250</zIndex>
+<pos verticalScreen="true">0.170 0.110</pos>
+</image>
+
+<text name="fullName" extra="true">
+<text>${system.fullName}</text>
+<alignment>center</alignment>
+<verticalAlignment>top</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/gemina.ttf</fontPath>
+<fontSize>0.024</fontSize>
+<pos>0.145 0.350</pos>
+<size>0.132 0.02</size>      
+<zIndex>299</zIndex>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>2</glowSize>
+<fontSize tinyScreen="true">0.065</fontSize>
+<glowSize tinyScreen="true">1</glowSize>
+<pos verticalScreen="true">0.520 0.280</pos>
+</text>
+
+<text name="manufacturerName" extra="static">
+<text>${system.sortedBy}</text>
+<alignment>center</alignment>
+<verticalAlignment>top</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/Scout-Black.otf</fontPath>
+<fontSize>0.028</fontSize>
+<pos>0.108 0.380</pos>
+<size>0.210 0.02</size>     
+<zIndex>99</zIndex>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>2</glowSize>
+<fontSize tinyScreen="true">0.065</fontSize>
+<glowSize tinyScreen="true">1</glowSize>
+<pos verticalScreen="true">0.570 0.300</pos>
+</text>
+
+<text name="releaseYyear" extra="true">
+<text>${system.releaseYearOrNull}</text>
+<alignment>center</alignment>
+<verticalAlignment>top</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/Roboto-Regular.ttf</fontPath>
+<fontSize>0.018</fontSize>
+<pos>0.138 0.420</pos>
+<pos verticalScreen="true">0.03 0.127</pos>         
+<size>0.152 0.28</size>        
+<zIndex>900</zIndex>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>2</glowSize>
+<fontSize tinyScreen="true">0.065</fontSize>
+<glowSize tinyScreen="true">1</glowSize>
+<pos verticalScreen="true">0.590 0.320</pos>
+</text>
+
+<text name="sys_description" extra="true">
+<visible>false</visible>
+<pos>0.300 0.383</pos>
+<size>0.430 0.20</size>
+<text></text>
+<fontSize>0.015</fontSize>
+<fontPath>./art/sistemas/fuentes/Roboto-Regular.ttf</fontPath>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<forceUppercase>true</forceUppercase>
+<zIndex>195</zIndex>
+</text>
+
+<text name="Favoritos" extra="true">
+ <visible>true</visible>
+ <text lang="es"> <!--español-->
+{binding:favorites}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+{binding:favorites}
+</text>
+
+<text lang="fr"> <!--frances-->
+{binding:favorites}
+</text>
+
+<text lang="en"> <!--ingles-->
+{binding:favorites}
+</text>
+
+<text lang="ar"> <!--arabe-->
+{binding:favorites}
+</text>
+
+<text lang="ca"> <!--catalan-->
+{binding:favorites}
+</text>
+
+<text lang="cy"> <!--gales-->
+{binding:favorites}
+</text>
+
+<text lang="de"> <!--aleman-->
+{binding:favorites}
+</text>
+
+<text lang="el"> <!--griego-->
+{binding:favorites}
+</text>
+
+<text lang="eu"> <!--euskera-->
+{binding:favorites}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+{binding:favorites}
+</text>
+
+<text lang="it"> <!--italiano-->
+{binding:favorites}
+</text>
+
+<text lang="oc"> <!--italiano-->
+{binding:favorites}
+</text>
+
+<text lang="ja"> <!--japones-->
+{binding:favorites}
+</text>
+
+<text lang="ko"> <!--coreano-->
+{binding:favorites}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+{binding:favorites}
+</text>
+
+<text lang="nn"> <!--noruego-->
+{binding:favorites}
+</text>
+
+<text lang="se"> <!--noruego-->
+{binding:favorites}
+</text>
+
+<text lang="pl"> <!--polaco-->
+{binding:favorites}
+</text>
+
+<text lang="pr"> <!--portuges-->
+{binding:favorites}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+{binding:favorites}
+</text>
+
+<text lang="ru"> <!--ruso-->
+{binding:favorites}
+</text>
+
+<text lang="tr"> <!--turko-->
+{binding:favorites}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+{binding:favorites}
+</text>
+
+<text lang="zh"> <!--chino-->
+{binding:favorites}
+</text>
+<verticalAlignment>center</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/STIXGeneral.otf</fontPath>
+<fontSize>0.020</fontSize>
+<alignment>center</alignment>
+<pos>0.112 0.037</pos>
+<size>0.48 0.28</size>
+<zIndex>50</zIndex>
+<color>555555</color>
+<glowColor>ffffff00</glowColor>
+<glowSize>1</glowSize>
+<zIndex>195</zIndex>
+<pos verticalScreen="true">-0.050 0.017</pos>
+</text>
+
+<text name="infogamesplayed" extra="true">
+ <visible>true</visible>
+ <text lang="es"> <!--español-->
+Jugados : {binding:gamesPlayed}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Jugados : {binding:gamesPlayed}
+</text>
+
+<text lang="fr"> <!--frances-->
+Joué : {binding:gamesPlayed}
+</text>
+
+<text lang="en"> <!--ingles-->
+Played : {binding:gamesPlayed}
+</text>
+
+<text lang="ar"> <!--arabe-->
+لعب : {binding:gamesPlayed}
+</text>
+
+<text lang="ca"> <!--catalan-->
+jugats : {binding:gamesPlayed}
+</text>
+
+<text lang="cy"> <!--gales-->
+Wedi chwarae : {binding:gamesPlayed}
+</text>
+
+<text lang="de"> <!--aleman-->
+Gespielt : {binding:gamesPlayed}
+</text>
+
+<text lang="el"> <!--griego-->
+Έπαιξε : {binding:gamesPlayed}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Jokatu : {binding:gamesPlayed}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Játszott : {binding:gamesPlayed}
+</text>
+
+<text lang="it"> <!--italiano-->
+Giocato : {binding:gamesPlayed}
+</text>
+<text lang="oc"> <!--italiano-->
+Giocato : {binding:gamesPlayed}
+</text>
+
+<text lang="ja"> <!--japones-->
+プレイした : {binding:gamesPlayed}
+</text>
+
+<text lang="ko"> <!--coreano-->
+플레이 : {binding:gamesPlayed}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Gespeeld : {binding:gamesPlayed}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Spilt : {binding:gamesPlayed}
+</text>
+
+<text lang="se"> <!--noruego-->
+Spilt : {binding:gamesPlayed}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Grał : {binding:gamesPlayed}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Reproduziu : {binding:gamesPlayed}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Reproduziu : {binding:gamesPlayed}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Играл : {binding:gamesPlayed}
+</text>
+
+<text lang="tr"> <!--turko-->
+Oynandı : {binding:gamesPlayed}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Грали : {binding:gamesPlayed}
+</text>
+
+<text lang="zh"> <!--chino-->
+玩过: {binding:gamesPlayed}
+</text>
+<verticalAlignment>center</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/STIXGeneral.otf</fontPath>
+<fontSize>0.020</fontSize>
+<alignment>left</alignment>
+<pos>0.310 0.3675</pos>
+<size>0.48 0.28</size>
+<zIndex>50</zIndex>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<zIndex>195</zIndex>
+<pos verticalScreen="true">0.150 0.3475</pos>
+</text>
+
+<text name="systemInfoExPlayed" extra="true">
+ <visible>true</visible>
+<text lang="es"> <!--español-->
+{binding:played}
+</text>
+
+<text lang="es"> <!--español-->
+Veces Jugados : {binding:played}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Veces Jugados : {binding:played}
+</text>
+
+<text lang="fr"> <!--frances-->
+Fois jouées : {binding:played}
+</text>
+
+<text lang="en"> <!--ingles-->
+Times Played : {binding:played}
+</text>
+
+<text lang="ar"> <!--arabe-->
+مرات اللعب  : {binding:played}
+</text>
+
+<text lang="ca"> <!--catalan-->
+vegades Jugats : {binding:played}
+</text>
+
+<text lang="cy"> <!--gales-->
+Amseroedd Chwarae : {binding:played}
+</text>
+
+<text lang="de"> <!--aleman-->
+Mal gespielt : {binding:played}
+</text>
+
+<text lang="el"> <!--griego-->
+Χρόνοι που παίζονται : {binding:played}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Aldiz jokatu zen : {binding:played}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Times Played : {binding:played}
+</text>
+
+<text lang="it"> <!--italiano-->
+Volte giocate : {binding:played}
+</text>
+<text lang="oc"> <!--italiano-->
+Volte giocate : {binding:played}
+</text>
+
+<text lang="ja"> <!--japones-->
+プレイした時間 : {binding:played}
+</text>
+
+<text lang="ko"> <!--coreano-->
+플레이 횟수 : {binding:played}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Keer gespeeld : {binding:played}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Times Spilt : {binding:played}
+</text>
+
+<text lang="se"> <!--noruego-->
+Times Spilt : {binding:played}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Zagrane razy : {binding:played}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Vezes Jogadas : {binding:played}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Vezes Jogadas : {binding:played}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Раз сыграно : {binding:played}
+</text>
+
+<text lang="tr"> <!--turko-->
+Oynanan Kere : {binding:played}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Відіграно разів : {binding:played}
+</text>
+
+<text lang="zh"> <!--chino-->
+播放次数 : {binding:played}
+</text>
+
+<text lang="zh"> <!--chino-->
+播放次数 : {binding:played}
+</text>
+<verticalAlignment>center</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/STIXGeneral.otf</fontPath>
+<fontSize>0.020</fontSize>
+<alignment>left</alignment>
+<pos>0.310 0.147</pos>
+<size>0.48 0.28</size>
+<zIndex>50</zIndex>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<zIndex>195</zIndex>
+<pos verticalScreen="true">0.150 0.137</pos>
+</text>
+
+<text name="systemInfoExmostPlayed" extra="true">
+ <visible>true</visible>
+<text lang="es"> <!--español-->
+Mas Jugado : {binding:mostPlayed}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Mas Jugado : {binding:mostPlayed}
+</text>
+
+<text lang="fr"> <!--frances-->
+Le plus joué : {binding:mostPlayed}
+</text>
+
+<text lang="en"> <!--ingles-->
+Most Played : {binding:mostPlayed}
+</text>
+
+<text lang="ar"> <!--arabe-->
+الأكثر لعبا  : {binding:mostPlayed}
+</text>
+
+<text lang="ca"> <!--catalan-->
+Mas Jugat : {binding:mostPlayed}
+</text>
+
+<text lang="cy"> <!--gales-->
+Wedi chwarae fwyaf : {binding:mostPlayed}
+</text>
+
+<text lang="de"> <!--aleman-->
+Meist gespielt : {binding:mostPlayed}
+</text>
+
+<text lang="el"> <!--griego-->
+Τα περισσότερα παίζονται : {binding:mostPlayed}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Jokatu Gehienak : {binding:mostPlayed}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Legtöbbet játszott : {binding:mostPlayed}
+</text>
+
+<text lang="it"> <!--italiano-->
+Più giocato : {binding:mostPlayed}
+</text>
+<text lang="oc"> <!--italiano-->
+Più giocato : {binding:mostPlayed}
+</text>
+
+<text lang="ja"> <!--japones-->
+最もプレイされた : {binding:mostPlayed}
+</text>
+
+<text lang="ko"> <!--coreano-->
+대부분의 플레이 : {binding:mostPlayed}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Meest gespeeld : {binding:mostPlayed}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Mest spilt : {binding:mostPlayed}
+</text>
+
+<text lang="se"> <!--noruego-->
+Mest spilt : {binding:mostPlayed}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Najczęściej grane : {binding:mostPlayed}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Mais tocado : {binding:mostPlayed}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Mais tocado : {binding:mostPlayed}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Самая популярная : {binding:mostPlayed}
+</text>
+
+<text lang="tr"> <!--turko-->
+En çok oynanan : {binding:mostPlayed}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Найіграніші : {binding:mostPlayed}
+</text>
+
+<text lang="zh"> <!--chino-->
+播放次数最多: {binding:mostPlayed}
+</text>
+<verticalAlignment>center</verticalAlignment>
+<visible>false</visible>
+<fontPath>./art/sistemas/fuentes/STIXGeneral.otf</fontPath>
+<fontSize>0.020</fontSize>
+<pos>0.250 -0.011</pos>
+<size>0.42 0.06</size>
+<zIndex>50</zIndex>
+<color>ffffff99</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<zIndex>195</zIndex>
+</text>
+
+<text name="systemInfoExtotal" extra="true">
+ <visible>true</visible>
+<text lang="es"> <!--español-->
+Total De Juegos : {binding:total}
+</text>
+
+ <text lang="es_MX"> <!--español mx-->
+Total De Juegos : {binding:total}
+</text>
+
+<text lang="fr"> <!--frances-->
+Total de jeux : {binding:total}
+</text>
+
+<text lang="en"> <!--ingles-->
+Total Games : {binding:total}
+</text>
+
+<text lang="ar"> <!--arabe-->
+إجمالي الألعاب : {binding:total}
+</text>
+
+<text lang="ca"> <!--catalan-->
+Total D'Jocs : {binding:total}
+</text>
+
+<text lang="cy"> <!--gales-->
+Cyfanswm y Gemau : {binding:total}
+</text>
+
+<text lang="de"> <!--aleman-->
+Gesamtspiele : {binding:total}
+</text>
+
+<text lang="el"> <!--griego-->
+Σύνολο παιχνιδιών : {binding:total}
+</text>
+
+<text lang="eu"> <!--euskera-->
+Total Games : {binding:total}
+</text>
+
+<text lang="hu"> <!--hungaro-->
+Összes játék : {binding:total}
+</text>
+
+<text lang="it"> <!--italiano-->
+Giochi totali : {binding:total}
+</text>
+<text lang="oc"> <!--italiano-->
+Giochi totali : {binding:total}
+</text>
+
+<text lang="ja"> <!--japones-->
+トータルゲーム : {binding:total}
+</text>
+
+<text lang="ko"> <!--coreano-->
+총 게임 : {binding:total}
+</text>
+
+<text lang="nl"> <!--neerlandes-->
+Totaal aantal spellen : {binding:total}
+</text>
+
+<text lang="nn"> <!--noruego-->
+Totalt antall spill : {binding:total}
+</text>
+
+<text lang="se"> <!--noruego-->
+Totalt antall spill : {binding:total}
+</text>
+
+<text lang="pl"> <!--polaco-->
+Total Games : {binding:total}
+</text>
+
+<text lang="pr"> <!--portuges-->
+Total de jogos : {binding:total}
+</text>
+
+<text lang="pt_BR"> <!--portuges brasil-->
+Total de jogos : {binding:total}
+</text>
+
+<text lang="ru"> <!--ruso-->
+Всего игр : {binding:total}
+</text>
+
+<text lang="tr"> <!--turko-->
+Toplam Oyun : {binding:total}
+</text>
+
+<text lang="uk"> <!--ucraniano-->
+Всього ігор : {binding:total}
+</text>
+
+<text lang="zh"> <!--chino-->
+游戏总数: {binding:total}
+</text>
+<verticalAlignment>center</verticalAlignment>
+<fontPath>./art/sistemas/fuentes/STIXGeneral.otf</fontPath>
+<fontSize>0.020</fontSize>
+<alignment>left</alignment>
+<pos>0.310 0.257</pos>
+<size>0.48 0.28</size>
+<zIndex>50</zIndex>
+<color>555555</color>
+<glowColor>00000000</glowColor>
+<glowSize>1</glowSize>
+<zIndex>195</zIndex>
+<pos verticalScreen="true">0.150 0.247</pos>
+</text>
+
+<image name="box1" extra="true">
+<pos>0.470 0.420</pos>     
+<maxSize>0.1173 0.21990</maxSize>
+<origin>0.5 0.5</origin>
+<zIndex>192</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0</roundCorners>
+<opacity>0</opacity>
+<scaleOrigin>0.5 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="0" to="1" begin="0" duration="400" mode="linear"/>
+</storyboard>
+<pos verticalScreen="true">0.600 0.190</pos>
+<maxSize verticalScreen="true">0.13 0.14</maxSize>
+</image>
+</view>
+</theme> 

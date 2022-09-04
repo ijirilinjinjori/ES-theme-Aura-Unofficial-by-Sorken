@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="splash">
+
+<splash name="splash">
+<backgroundColor>989898</backgroundColor>
+</splash>
+		
+<image name="background">
+<visible>true</visible>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/carga.png</path>
+<zIndex>30</zIndex>
+<size verticalScreen="true">0 0.500</size>
+<pos verticalScreen="true">-0.280 0.310</pos>
+<visible verticalScreen="true">true</visible>
+</image>
+
+
+<image name="open-game" extra="true">
+<visible>true</visible>
+<size>0.370 0.095</size>
+<pos>0.330 0.03</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/open.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>130</zIndex>
+<size verticalScreen="true">0.950 0.200</size>
+<pos verticalScreen="true">0.020 0.020</pos>
+<visible verticalScreen="true">true</visible>
+</image>
+
+
+<text name="label">
+<origin>0.05 0.5</origin>
+<pos>0.36 0.840</pos>
+<size>0.300 0.10</size>
+<alignment>center</alignment>
+<color>ffffff</color>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.032</fontSize>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<glowOffset>3</glowOffset>
+<zIndex>20</zIndex>
+<visible verticalScreen="true">true</visible>
+<fontSize verticalScreen="true">0.052</fontSize>
+<size verticalScreen="true">0.500 0.110</size>
+<pos verticalScreen="true">0.266 0.880</pos>
+</text>
+</view>
+</theme>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Peso Del Tema 754,266,017 bytes (806.8 MB en el disco)
+
+CREADO POR: SORKEN BARRIUKAN -- license: creative commons CC-BY-NC-SA
+
+BASADO EN EL TEMA CARBON DE Fabrice CARUSO
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+<systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
+<informacionsystemName>CAMBIAR IDIOMA DE DESCRIPCION</informacionsystemName>
+<subset.shader>SHADERS</subset.shader>
+</variables>
+
+
+<!-- LENGUAJES (VARIABLES) -->
+<include lang="ar">./art/sistemas/variables/ar.xml</include>
+<include lang="ca">./art/sistemas/variables/ca.xml</include>
+<include lang="cy_GB">./art/sistemas/variables/cy_GB.xml</include>
+<include lang="cy">./art/sistemas/variables/cy.xml</include>
+<include lang="cz">./art/sistemas/variables/cz.xml</include>
+<include lang="de">./art/sistemas/variables/de.xml</include>
+<include lang="el">./art/sistemas/variables/el.xml</include>
+<include lang="en">./art/sistemas/variables/en.xml</include>
+<include lang="es_MX">./art/sistemas/variables/es_MX.xml</include>
+<include lang="es">./art/sistemas/variables/es.xml</include>
+<include lang="eu_ES">./art/sistemas/variables/eu_ES.xml</include>
+<include lang="eu">./art/sistemas/variables/eu.xml</include>
+<include lang="fr">./art/sistemas/variables/fr.xml</include>
+<include lang="he">./art/sistemas/variables/he.xml</include>
+<include lang="hu">./art/sistemas/variables/hu.xml</include>
+<include lang="it">./art/sistemas/variables/it.xml</include>
+<include lang="ja_JP">./art/sistemas/variables/ja_JP.xml</include>
+<include lang="ja">./art/sistemas/variables/ja.xml</include>
+<include lang="ko">./art/sistemas/variables/ko.xml</include>
+<include lang="nb_NO">./art/sistemas/variables/nb_NO.xml</include>
+<include lang="nb">./art/sistemas/variables/nb.xml</include>
+<include lang="nl">./art/sistemas/variables/nl.xml</include>
+<include lang="nn_NO">./art/sistemas/variables/nn_NO.xml</include>
+<include lang="oc_FR">./art/sistemas/variables/oc_FR.xml</include>
+<include lang="oc">./art/sistemas/variables/oc.xml</include>
+<include lang="pl">./art/sistemas/variables/pl.xml</include>
+<include lang="pt_BR">./art/sistemas/variables/pt_BR.xml</include>
+<include lang="pt">./art/sistemas/variables/pt.xml</include>
+<include lang="ru_RU">./art/sistemas/variables/ru_RU.xml</include>
+<include lang="ru">./art/sistemas/variables/ru.xml</include>
+<include lang="se">./art/sistemas/variables/se.xml</include>
+<include lang="sv_SE">./art/sistemas/variables/sv_SE.xml</include>
+<include lang="sv">./art/sistemas/variables/sv.xml</include>
+<include lang="tr">./art/sistemas/variables/tr.xml</include>
+<include lang="uk_UA">./art/sistemas/variables/uk_UA.xml</include>
+<include lang="uk">./art/sistemas/variables/uk.xml</include>
+<include lang="zh_CN">./art/sistemas/variables/zh_CN.xml</include>
+<include lang="zh">./art/sistemas/variables/zh.xml</include>
+<include lang="zh_TW">./art/sistemas/variables/zh_TW.xml</include>
+
+  
+<!--  Modos de Vistas en sistema -->
+<subset name="systemview" displayName="${systemViewName}">
+<include name="AURA - B&W (1)">./art/sistemas/systemview/aura1b&w.xml</include>
+<include name="AURA - B&W (2)">./art/sistemas/systemview/aura2b&w.xml</include>
+
+<include name="AURA - BLUR (1)">./art/sistemas/systemview/aura1blur.xml</include>
+<include name="AURA - BLUR (2)">./art/sistemas/systemview/aura2blur.xml</include>
+
+<include name="AURA - BLUR (3)">./art/sistemas/systemview/aura3blur.xml</include>
+<include name="AURA - BLUR (3.5)">./art/sistemas/systemview/aura3.5blur.xml</include>
+
+<include name="AURA - BLUR 2 (8 LOGOS)">./art/sistemas/systemview/aurablur8logos.xml</include>
+<include name="AURA - BLUR 2 (5 LOGOS)">./art/sistemas/systemview/aurablur5logos.xml</include>
+
+<include name="AURA - BLUR 2 + VIDEO ">./art/sistemas/systemview/aurawithe.xml</include>
+
+<include name="AURA - 8 LOGOS (+ video on background)">./art/sistemas/systemview/aurora+video.xml</include>
+
+<include name="AURA (2) + video on background">./art/sistemas/systemview/aurora+video2.xml</include>
+</subset>
+
+
+
+<!--Show  Info-->
+ <subset name="informacionsystem" displayName="${informacionsystemName}">
+<include name="ESPAÑOL  (Por Defecto)" displayName="${yes}">./art/sistemas/infosys/es/${system.theme}.xml</include>
+<include name="ITALIANO" displayName="${yes}">./art/sistemas/infosys/it/${system.theme}.xml</include>
+<include name="FRANCES" displayName="${yes}">./art/sistemas/infosys/fr/${system.theme}.xml</include>
+<include name="PORTUGUES" displayName="${yes}">./art/sistemas/infosys/pt/${system.theme}.xml</include>
+<include name="ENGLISH" displayName="${yes}">./art/sistemas/infosys/en/${system.theme}.xml</include>
+</subset>
+
+
+<!--  Efectos en pantalla encima de todo -->
+<subset name="Shader" displayName="${subset.shader}">
+<include name="Ninguno" displayName="${none}"/>
+<include name="Crt">./art/sistemas/shader/crt.xml</include>
+<include name="Filtro 1">./art/sistemas/shader/fitro 2.xml</include>
+<include name="ScanLines">./art/sistemas/shader/scanlines.xml</include>
+<include name="ScanLines-2">./art/sistemas/shader/scanlines3.xml</include>
+<include name="ScanLines-3">./art/sistemas/shader/scanlines7.xml</include>
+<include name="ScanLines-4">./art/sistemas/shader/scanlines10.xml</include>
+<include name="ScanLines vertical">./art/sistemas/shader/scanlines vertical.xml</include>
+</subset>
+  
+
+<!-- --------------------------------------- ((( MENU ))) -------------------------------- -->
+<view name="menu">
+<menuText name="menutitle">
+<fontPath>./art/sistemas/fuentes/dash_dot_square-7.ttf</fontPath>
+<fontSize>0.020</fontSize>
+<color>ffffff</color>
+</menuText>
+
+<menuText name="menufooter">
+<fontPath>./art/sistemas/fuentes/dash_dot_square-7.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<color>ffffff</color>
+</menuText>
+
+<menuText name="menutext">
+<fontPath>./art/sistemas/fuentes/dash_dot_square-7.ttf</fontPath>
+<fontSize>0.020</fontSize>
+<color>ffffff</color>
+<separatorColor>817f7f</separatorColor>
+<selectorColor>7f7c7c</selectorColor>
+<selectorColorEnd>464444</selectorColorEnd>
+<selectedColor>ffffff</selectedColor>
+<selectorGradientType>horizontal</selectorGradientType>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<color>ffffff</color>
+</menuTextSmall>
+
+<menuBackground name="menubg">
+<color>c5bdb2</color>
+<cornerSize>32 32</cornerSize>
+<path>./art/sistemas/fondos/menu2.png</path>
+</menuBackground>
+
+<menuIcons name="menuicons">
+<iconKodi>./art/sistemas/icons/Kodi.png</iconKodi>
+<iconSystem>./art/sistemas/icons/System.png</iconSystem>
+<iconUpdates>./art/sistemas/icons/Updates.png</iconUpdates>
+<iconGames>./art/sistemas/icons/Games.png</iconGames>
+<iconControllers>./art/sistemas/icons/Controllers.png</iconControllers>
+<iconUI>./art/sistemas/icons/UI.png</iconUI>
+<iconSound>./art/sistemas/icons/Sound.png</iconSound>
+<iconNetwork>./art/sistemas/icons/Network.png</iconNetwork>
+<iconScraper>./art/sistemas/icons/Scraper.png</iconScraper>
+<iconAdvanced>./art/sistemas/icons/Advanced.png</iconAdvanced>
+<iconQuit>./art/sistemas/icons/Quit.png</iconQuit>
+<iconRestart>./art/sistemas/icons/Restart.png</iconRestart>
+<iconShutdown>./art/sistemas/icons/Shutdown.png</iconShutdown>
+<iconFastShutdown>./art/sistemas/icons/Fastshutdown.png</iconFastShutdown>
+<iconRetroachievements>./art/sistemas/icons/Contest.png</iconRetroachievements>
+<iconManual>./art/sistemas/icons/Manual.png</iconManual>
+</menuIcons>
+<menuTextEdit name="menutextedit">
+<inactive>./art/textinput_ninepatch.png</inactive>
+<active>./art/textinput_ninepatch_active.png</active>
+</menuTextEdit>
+</view>
+
+
+
+
+
+
+<!--------------------------- Pantalla por encima de todo------------------------------------- -->
+<view name="screen">
+<text name="clock">
+<textColor>ffffff</textColor>
+<fontSize>0.035</fontSize>
+<pos>0.90 0.94</pos>
+<size>0.09 0.058</size>
+<fontSize>0.020</fontSize>
+<alignment>right</alignment>
+<verticalAlignment>center</verticalAlignment>
+</text>
+
+<controllerActivity name="controllerActivity">
+<pos>0.01 0.01</pos>
+<size>0.085 0.025</size>
+<itemSpacing>0.003</itemSpacing>
+<imagePath>./art/gamepad.svg</imagePath>
+<color>ffffff</color>
+<activityColor>9abb34</activityColor>
+<hotkeyColor>516513</hotkeyColor>
+</controllerActivity>
+
+</view>
+  
+  <!---------------------------  VISTAS EN LISTA DE JUEGOS----------------------- -->
+<include name="gamecarousel">./art/sistemas/vista-lista-juegos/gamecarousel.xml</include>
+
+<include name="DETALLADO">./art/sistemas/vista-lista-juegos/basic.xml</include>
+
+<include name="BASIC">./art/sistemas/vista-lista-juegos/detalle.xml</include>
+
+<include name="GRID">./art/sistemas/vista-lista-juegos/grid.xml</include>
+
+<include name="CAROUSEL">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
+
+
+<include name="AURA - BLUR (3)">./art/sistemas/vista-lista-juegos/aura3.xml</include>
+<include name="AURA - BLUR (3.5)">./art/sistemas/vista-lista-juegos/aura3.5.xml</include>
+
+<include name="AURA - B&W (+ VIDEO BACKGROUND)">./art/sistemas/vista-lista-juegos/aura+videoback.xml</include>
+<include name="AURA - B&W-2 (+ VIDEO BACKGROUND)">./art/sistemas/vista-lista-juegos/aura+videoback2.xml</include>
+</theme>
