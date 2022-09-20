@@ -1,5 +1,8 @@
 # ES-theme-Aura-Unofficial-by-Sorken
 
+#
+SE ACTUALIZO, SE AGREGARON LOS SITEMAS FALTANTES.
+#
 Creative Commons Legal Code
 
 CC0 1.0 Universal
