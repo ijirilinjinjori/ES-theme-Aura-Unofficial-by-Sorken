@@ -2,6 +2,13 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="detailed">
+
+ 
+    <gameextras name="gameextras">
+     <path>./../games/${system.theme}</path>
+    </gameextras>
+
+
 <textlist name="gamelist">
 <selectorColor>55555550</selectorColor>
 <forceUppercase>1</forceUppercase>
@@ -10,7 +17,7 @@
 <secondaryColor>7a6161</secondaryColor>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
 <forceUppercase>1</forceUppercase>
-<pos>0.024 0.220</pos>
+<pos>0.024 0.210</pos>
 <size>0.1805 0.690</size>
 <lineSpacing>1.920</lineSpacing>
 <alignment>center</alignment>
@@ -22,6 +29,8 @@
 <pos verticalScreen="true">0.024 0.220</pos>
 <size verticalScreen="true">0.1805 0.560</size>
 </textlist>
+
+
 
 <image name="logo1system" extra="true">
 <visible>true</visible>
@@ -152,20 +161,24 @@
 <animation property="scale" to="0" begin="0" duration="0" mode="easeOut" autoreverse="false" repeat="1"/>
 <animation property="scale" to="1" begin="0300" duration="0400" mode="easeOut" autoreverse="false" repeat="1"/>
 </storyboard>
-
 <pos verticalScreen="true">0.440 0.510</pos>
 <size verticalScreen="true">0.270 0.232</size>
 </video>
     
 <image name="md_image">
-<visible>false</visible>
+<visible>true</visible>
 <rotation>0</rotation>  
 <roundCorners>0.03</roundCorners>     
-<pos>0.8790 0.794</pos>     
-<maxSize>0.1933 0.28990</maxSize>
+<pos>0.830 0.790</pos>     
+<maxSize>0.1433 0.1490</maxSize>
 <origin>0.5 0.5</origin>
 <linearSmooth>true</linearSmooth>
-<zIndex>51</zIndex>
+<zIndex>151</zIndex>
+<storyboard>
+<animation property="opacity" from="0" to="0" begin="0" duration="0" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1000" duration="400" mode="linear"/>
+</storyboard>
+<visible verticalScreen="true">false</visible>
 </image>
 
 <text name="cheevosUser" extra="true">
@@ -186,9 +199,9 @@
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
 <textColor>55555599</textColor>
-<iconColor>55555599</iconColor>
+<iconColor>555555</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.313 0.9660</pos>
+<pos>0.013 0.9660</pos>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.080 0.9660</pos>
 </helpsystem>
@@ -220,7 +233,6 @@
 <storyboard event="deactivatePrev">
 <animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
 </storyboard>
-
 <pos verticalScreen="true">0.760 0.455</pos>
 <maxSize verticalScreen="true">0.230 0.326</maxSize>
 </image>	
@@ -241,7 +253,7 @@
 <path>./art/sistemas/logos/default.png</path>
 <path>./art/sistemas/logos/${system.theme}.svg</path>
 <path>./art/sistemas/logos/${system.theme}.png</path>
-<pos>0.154 0.082</pos>
+<pos>0.114 0.100</pos>
 <maxSize>0.159 0.130</maxSize>
 <origin>0.5 0.5</origin>
 <linearSmooth>true</linearSmooth>
@@ -254,9 +266,6 @@
 <pos verticalScreen="true">0.494 0.150</pos>
 <maxSize verticalScreen="true">0.260 0.366</maxSize>
 </image>
-
-
-
 
 
 <text name="fullNamevertical" extra="true">
@@ -278,8 +287,6 @@
 <size verticalScreen="true">0.222 0.02</size>
 <visible verticalScreen="true">true</visible>
 </text>
-
-
 
 
 <text name="manufacturerNamevertical" extra="static">
@@ -324,8 +331,6 @@
 </text>
 
 
-
-
 <text name="manufacturerName" extra="static">
 <text>${system.sortedBy}</text>
 <alignment>left</alignment>
@@ -335,7 +340,7 @@
 <pos>0.655 0.710</pos>
 <size>0.942 0.28</size>     
 <zIndex>99</zIndex>
-<color>555555</color>
+<color>ffffff90</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -358,7 +363,7 @@
 <pos>0.655 0.748</pos>
 <size>0.222 0.02</size>      
 <zIndex>299</zIndex>
-<color>555555</color>
+<color>ffffff90</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -382,7 +387,7 @@
 <pos verticalScreen="true">0.03 0.127</pos>         
 <size>0.94 0.28</size>        
 <zIndex>100</zIndex>
-<color>555555</color>
+<color>ffffff90</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -395,7 +400,6 @@
 </storyboard>
 <visible verticalScreen="true">false</visible>
 </text>
-
 
 <text name="sys_description" extra="true">
 <visible>false</visible>
@@ -411,10 +415,6 @@
 <zIndex>195</zIndex>
 </text>
 
-
-
-
-
 <image name="publisher" extra="static">
 <visible>true</visible>
 <path>./art/sistemas/icons/publisher.png</path>
@@ -427,8 +427,6 @@
 <pos verticalScreen="true">0.300 0.230</pos>
 <maxSize verticalScreen="true">0.066</maxSize>
 </image>
-
-
 
 <image name="release" extra="static">
 <visible>true</visible>
@@ -443,8 +441,6 @@
 <maxSize verticalScreen="true">0.090</maxSize>
 </image>
 
-
-
 <image name="time" extra="static">
 <visible>true</visible>
 <path>./art/sistemas/icons/time.png</path>
@@ -457,7 +453,6 @@
 <pos verticalScreen="true">0.546 0.230</pos>
 <maxSize verticalScreen="true">0.090</maxSize>
 </image>
-
 
 <image name="genero" extra="static">
 <visible>true</visible>
@@ -472,7 +467,6 @@
 <maxSize verticalScreen="true">0.080</maxSize>
 </image>
 
-
 <image name="vecesjugados" extra="static">
 <visible>true</visible>
 <path>./art/sistemas/icons/veces jugados.png</path>
@@ -486,21 +480,14 @@
 <maxSize verticalScreen="true">0.057</maxSize>
 </image>
      
-
-
-
-
-
-
-
 <text name="md_description">
 <visible>true</visible>
 <color>555555</color>
 <forceUppercase>0</forceUppercase>
 <fontSize>0.017</fontSize>
 <fontPath>./art/sistemas/Roboto-Black.ttf</fontPath>
-<pos>0.500 0.750</pos>
-<size>0.390 0.100</size>
+<pos>0.460 0.750</pos>
+<size>0.300 0.100</size>
 <lineSpacing>1.5</lineSpacing>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.300 0.650</pos>

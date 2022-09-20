@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-Peso Del Tema 754,266,017 bytes (806.8 MB en el disco)
+Peso Del Tema 804,868,361 bytes (823.3 MB en el disco)
 
 CREADO POR: SORKEN BARRIUKAN -- license: creative commons CC-BY-NC-SA
 
@@ -81,7 +81,6 @@ BASADO EN EL TEMA CARBON DE Fabrice CARUSO
 </subset>
 
 
-
 <!--Show  Info-->
  <subset name="informacionsystem" displayName="${informacionsystemName}">
 <include name="ESPAÑOL  (Por Defecto)" displayName="${yes}">./art/sistemas/infosys/es/${system.theme}.xml</include>
@@ -90,6 +89,7 @@ BASADO EN EL TEMA CARBON DE Fabrice CARUSO
 <include name="PORTUGUES" displayName="${yes}">./art/sistemas/infosys/pt/${system.theme}.xml</include>
 <include name="ENGLISH" displayName="${yes}">./art/sistemas/infosys/en/${system.theme}.xml</include>
 </subset>
+
 
 
 <!--  Efectos en pantalla encima de todo -->

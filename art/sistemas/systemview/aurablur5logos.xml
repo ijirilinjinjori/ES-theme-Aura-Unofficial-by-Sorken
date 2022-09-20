@@ -4,7 +4,7 @@
 <view name="system">
 
 <carousel name="systemcarousel">
-<defaultTransition>instant</defaultTransition>
+<defaultTransition>Slide</defaultTransition>
 <zIndex>174</zIndex>	      
 <type>horizontal</type>
 <linearSmooth>true</linearSmooth>
@@ -21,7 +21,7 @@
 <scrollSound>./art/sistemas/sonidos/aura.wav</scrollSound>
 <systemInfoDelay>700</systemInfoDelay>
 <systemInfoCountOnly>false</systemInfoCountOnly>
-<transitionSpeed>0</transitionSpeed>
+<transitionSpeed>400</transitionSpeed>
 <minLogoOpacity>0.6</minLogoOpacity>
 <logoSize verticalScreen="true">0.160 0.250</logoSize>
 <maxLogoCount verticalScreen="true">5</maxLogoCount> 
@@ -54,7 +54,7 @@
 <text name="systemInfo">
 <visible>true</visible>
 <systemInfoDelay>300</systemInfoDelay>
-<pos>0.580  -0.024</pos>
+<pos>-0.130  -0.084</pos>
 <size>0.420 0.30</size>
 <fontSize>0.027</fontSize>
 <fontPath>./art/sistemas/fuentes/RobotoCondensed-Bold.ttf</fontPath>
@@ -112,16 +112,7 @@
 </image>
 
 <image name="fondo" extra="true">
-<tile>false</tile>
 <visible>false</visible>
-<color>ffffff</color>
-<size>1 1</size>
-<pos>0 0</pos>
-<origin>0 0</origin>
-<path>./art/sistemas/blur/default.png</path>
-<path>./art/sistemas/blur/${system.theme}.png</path>
-<linearSmooth>true</linearSmooth>
-<zIndex>70</zIndex>
 </image>
 
 <image name="capaopacavertical" extra="true">
@@ -144,7 +135,7 @@
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/sistemas/fondos/aura8logos.png</path>
+<path>./art/sistemas/fondos/aura5logos.png</path>
 <linearSmooth>true</linearSmooth>
 <zIndex>79</zIndex>
 <visible verticalScreen="true">false</visible>
@@ -216,7 +207,7 @@
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
 <text>Ⓒheevos-Ⓤsername  
     ★${cheevos.username}☆</text>
-<pos>0.755 0.010</pos>
+<pos>0.030 0.080</pos>
 <size>0.387 0.070</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
@@ -228,8 +219,8 @@
 </text>
 
 <image name="controller" extra="true">
-<pos>0.160 0.013</pos>
-<maxSize>0.13 0.15</maxSize>
+<pos>0.800 0.013</pos>
+<maxSize>0.13 0.13</maxSize>
 <color>555353</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
@@ -238,7 +229,7 @@
 <linearSmooth>true</linearSmooth>
 <zIndex>571</zIndex>
 <pos verticalScreen="true">0.160 0.002</pos>
-<maxSize verticalScreen="true">0.20 0.19</maxSize>
+<maxSize verticalScreen="true">0.20 0.07</maxSize>
 </image>
 
 <helpsystem name="help">
@@ -248,7 +239,7 @@
 <textColor>555555</textColor>
 <iconColor>555555</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.353 0.9660</pos>
+<pos>0.053 0.9660</pos>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.100 0.9660</pos>
 </helpsystem>
@@ -270,6 +261,7 @@
 <pos verticalScreen="true">0.030 0.190</pos>
 <size verticalScreen="true">0.822 0.02</size>
 <fontSize verticalScreen="true">0.029</fontSize>
+<color verticalScreen="true">ffffff90</color>
 </text>
 
 <text name="fullName" extra="true">
@@ -289,6 +281,7 @@
 <pos verticalScreen="true">0.030 0.160</pos>
 <size verticalScreen="true">0.822 0.02</size>
 <fontSize verticalScreen="true">0.034</fontSize>
+<color verticalScreen="true">ffffff90</color>
 </text>
 
 <text name="releaseYyear" extra="true">
@@ -308,6 +301,7 @@
 <glowSize tinyScreen="true">1</glowSize>
 <pos verticalScreen="true">0.030 0.230</pos>
 <size verticalScreen="true">0.822 0.02</size>
+<color verticalScreen="true">ffffff90</color>
 <fontSize verticalScreen="true">0.025</fontSize>
 </text>
 

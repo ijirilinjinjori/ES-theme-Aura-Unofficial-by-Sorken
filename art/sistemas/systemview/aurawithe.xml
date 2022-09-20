@@ -219,7 +219,7 @@
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
 <text>Ⓒheevos-Ⓤsername: ★${cheevos.username}☆</text>
-<pos>0.140 0.010</pos>
+<pos>0.010 0.110</pos>
 <size>0.500 0.0275</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
@@ -248,7 +248,7 @@
 <textColor>ffffff</textColor>
 <iconColor>ffffff</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.353 0.9660</pos>
+<pos>0.053 0.9660</pos>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.100 0.9660</pos>
 </helpsystem>

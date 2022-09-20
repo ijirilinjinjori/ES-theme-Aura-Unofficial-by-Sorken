@@ -62,11 +62,13 @@
 </image>
 
 <image name="logo1system" extra="true">
+<visible>true</visible>
 <pos>-0.052 0.475</pos>
 <maxSize>0.24 0.25</maxSize>
 <color>ffffff</color>
 <rotation>0</rotation>  
 <path>./art/sistemas/logos/default.png</path>
+<path>./art/sistemas/logos/${system.theme}.svg</path>
 <path>./art/sistemas/logos/${system.theme}.png</path>
 <linearSmooth>true</linearSmooth>
 <zIndex>171</zIndex>
@@ -81,6 +83,7 @@
 <color>ffffff</color>
 <rotation>0</rotation>  
 <path>./art/sistemas/logos/default.png</path>
+<path>./art/sistemas/logos/${system.theme}.svg</path>
 <path>./art/sistemas/logos/${system.theme}.png</path>
 <linearSmooth>true</linearSmooth>
 <zIndex>171</zIndex>
@@ -90,8 +93,8 @@
 </image>
 
 <image name="controller" extra="true">
-<pos>0.230 0.015</pos>
-<maxSize>0.12 0.30</maxSize>
+<pos>0.760 0.010</pos>
+<maxSize>0.14 0.14</maxSize>
 <color>555353</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
@@ -99,20 +102,12 @@
 <path>./art/sistemas/controllers/${system.theme}.svg</path>
 <linearSmooth>true</linearSmooth>
 <zIndex>571</zIndex>
-<visible verticalScreen="true">false</visible>
-</image>
-
-<image name="controller2" extra="true">
-<pos>0.610 0.015</pos>
-<maxSize>0.12 0.30</maxSize>
-<color>555353</color>
-<rotation>0</rotation> 
-<path>./art/sistemas/controllers/default.png</path> 
-<path>./art/sistemas/controllers/${system.theme}.png</path>
-<path>./art/sistemas/controllers/${system.theme}.svg</path>
-<linearSmooth>true</linearSmooth>
-<zIndex>571</zIndex>
-<visible verticalScreen="true">false</visible>
+<storyboard>       
+<animation property="opacity" from="0" to="0" begin="0" duration="0" mode="linear"/>
+<animation property="opacity" from="0" to="1" begin="1000" duration="400" mode="linear"/>
+</storyboard>
+<pos verticalScreen="true">0.760 0.004</pos>
+<maxSize verticalScreen="true">0.14 0.07</maxSize>
 </image>
 
 <textlist name="gamelist">
@@ -124,7 +119,7 @@
 <fontPath>./art/sistemas/fuentes/STIXGeneral.otf</fontPath>
 <forceUppercase>1</forceUppercase>
 <pos>0.235 0.230</pos>
-<size>0.505 0.700</size>
+<size>0.505 0.670</size>
 <lineSpacing>1.920</lineSpacing>
 <alignment>center</alignment>
 <horizontalMargin>0.00</horizontalMargin>
@@ -140,10 +135,10 @@
 <visible>true</visible>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
-<textColor>55555599</textColor>
-<iconColor>55555599</iconColor>
+<textColor>555555</textColor>
+<iconColor>555555</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.313 0.9660</pos>
+<pos>0.013 0.9660</pos>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.080 0.9660</pos>
 </helpsystem>
@@ -168,7 +163,7 @@
 </text>
 
 <image name="logo">
-<visible>true</visible>
+<visible>false</visible>
 <path>./art/sistemas/logos/default.png</path>
 <path>./art/sistemas/logos/${system.theme}.svg</path>
 <path>./art/sistemas/logos/${system.theme}.png</path>
@@ -207,7 +202,7 @@
 <visible>true</visible>
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
 <text>Ⓒheevos-Ⓤsername ★${cheevos.username}☆</text>
-<pos>0.020 0.126</pos>
+<pos>0.120 0.066</pos>
 <size>0.400 0.0275</size>
 <origin>0 0</origin>
 <alignment>left</alignment>

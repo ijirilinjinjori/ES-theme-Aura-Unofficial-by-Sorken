@@ -126,11 +126,12 @@
 <color>ffffff</color>
 <origin>0.5 0.5</origin>
 <rotation>0</rotation>  
+<path>./art/sistemas/logos/${system.theme}.svg</path>
 <path>./art/sistemas/logos/${system.theme}.png</path>
 <linearSmooth>true</linearSmooth>
 <roundCorners>0.01</roundCorners> 
 <zIndex>171</zIndex>
-<pos verticalScreen="true">0.430 0.060</pos>
+<pos verticalScreen="true">0.470 0.060</pos>
 <maxSize verticalScreen="true">0.23 0.24</maxSize>
 </image>
 
@@ -225,17 +226,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 <video name="video" extra="true">
 <visible>true</visible>
 <path>{random}</path>
@@ -269,7 +259,7 @@
 
 <image name="controller" extra="true">
 <pos>0.780 0.640</pos>
-<maxSize>0.20 0.50</maxSize>
+<maxSize>0.20 0.19</maxSize>
 <color>555353</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
@@ -278,7 +268,7 @@
 <linearSmooth>true</linearSmooth>
 <zIndex>571</zIndex>
 <pos verticalScreen="true">0.110 0.015</pos>
-<maxSize verticalScreen="true">0.20 0.21</maxSize>
+<maxSize verticalScreen="true">0.20 0.07</maxSize>
 </image>
 
 <helpsystem name="help">
@@ -288,7 +278,7 @@
 <textColor>555555</textColor>
 <iconColor>555555</iconColor>
 <fontSize>0.020</fontSize>
-<pos>0.353 0.9660</pos>
+<pos>0.053 0.9660</pos>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.080 0.9660</pos>
 </helpsystem>
@@ -556,7 +546,7 @@ Jugados
 
 <text lang="fr"> <!--frances-->
 Joué 
- {binding:gamesPlayed}
+{binding:gamesPlayed}
 </text>
 
 <text lang="en"> <!--ingles-->
@@ -689,7 +679,8 @@ Oynandı
 <text name="systemInfoExPlayed" extra="true">
  <visible>true</visible>
 <text lang="es"> <!--español-->
-Veces Jugados : {binding:played}
+Veces Jugados : 
+{binding:played}
 </text>
 
  <text lang="es_MX"> <!--español mx-->
@@ -944,7 +935,8 @@ En çok oynanan : {binding:mostPlayed}
 <text name="systemInfoExtotal" extra="true">
  <visible>true</visible>
 <text lang="es"> <!--español-->
-Total De Juegos : {binding:total}
+Total De Juegos : 
+{binding:total}
 </text>
 
  <text lang="es_MX"> <!--español mx-->

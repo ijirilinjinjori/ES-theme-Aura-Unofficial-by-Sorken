@@ -83,7 +83,7 @@
 <image name="logosystem" extra="true">
 <origin>0.5 0.5</origin>
 <pos>0.214 0.473</pos>     
-<maxSize>0.1233 0.17590</maxSize>
+<maxSize>0.0833 0.06590</maxSize>
 <color>ffffff</color>
 <rotation>0</rotation>  
 <path>./art/sistemas/logos/${system.theme}.png</path>
@@ -160,7 +160,6 @@
 <pos verticalScreen="true">0.670 0.395</pos>
 <size verticalScreen="true">0.315 0.255</size>
 <zIndex>174</zIndex>
-
 </image>
 
 <image name="capaopacavertical" extra="true">
@@ -196,8 +195,8 @@
 <default>./art/GLICTH NO SIGNA.mp4</default>  
 <rotation>0</rotation>  
 <roundCorners>0.01</roundCorners>     
-<pos>0.633 0.315</pos>
-<maxSize>0.450 0.4384</maxSize>
+<pos>0.653 0.315</pos>
+<maxSize>0.400 0.4384</maxSize>
 <origin>0.5 0.5</origin>
 <delay>0</delay>
 <showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -215,7 +214,7 @@
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
 <text>Ⓒheevos-Ⓤsername: ★${cheevos.username}☆</text>
-<pos>0.250 0.008</pos>
+<pos>0.350 0.008</pos>
 <size>0.500 0.0275</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
@@ -236,7 +235,7 @@
 <linearSmooth>true</linearSmooth>
 <zIndex>571</zIndex>
 
-<maxSize verticalScreen="true">0.20 0.22</maxSize>
+<maxSize verticalScreen="true">0.20 0.10</maxSize>
 <pos verticalScreen="true">0.575 0.360</pos>
 </image>
 
