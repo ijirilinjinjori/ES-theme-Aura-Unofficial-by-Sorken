@@ -201,7 +201,7 @@
 <storyboard repeat="1">
 <animation property="scale" to="1.180" begin="0300" duration="0200" mode="easeOut" autoreverse="false" repeat="1"/>
 <animation property="x"  to="0.080" begin="1500" duration="400" autoreverse="false" repeat="1"/>
-<animation property="y"  to="0.810" begin="1500" duration="400" autoreverse="false" repeat="1"/>
+<animation property="y"  to="0.780" begin="1500" duration="400" autoreverse="false" repeat="1"/>
 <animation property="x"  to="0.191" begin="0" duration="400" autoreverse="false" repeat="1"/>
 <animation property="y"  to="0.500" begin="0" duration="400" autoreverse="false" repeat="1"/>
 </storyboard>
@@ -221,7 +221,7 @@
 <storyboard repeat="1">
 <animation property="scale" to="1.180" begin="0300" duration="0200" mode="easeOut" autoreverse="false" repeat="1"/>
 <animation property="x"  to="0.080" begin="1500" duration="400" autoreverse="false" repeat="1"/>
-<animation property="y"  to="0.810" begin="1500" duration="400" autoreverse="false" repeat="1"/>
+<animation property="y"  to="0.780" begin="1500" duration="400" autoreverse="false" repeat="1"/>
 <animation property="x"  to="0.191" begin="0" duration="400" autoreverse="false" repeat="1"/>
 <animation property="y"  to="0.500" begin="0" duration="400" autoreverse="false" repeat="1"/>
 </storyboard>
