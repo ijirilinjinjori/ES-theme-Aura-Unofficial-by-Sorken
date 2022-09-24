@@ -19,7 +19,6 @@
 <gameImage>./art/sistemas/fondos/defaultgrid.png</gameImage>
 <logoBackgroundImage>/art/fondos/deflogobk.png</logoBackgroundImage>
 <linearSmooth>true</linearSmooth>
-<scrollSound>./art/sistemas/sonidos/aura.wav</scrollSound>
 <zIndex>72</zIndex>
 <storyboard event="open" repeat="1">
 <animation property="opacity" from="0" to="1" begin="0" duration="0" mode="linear"/>
@@ -128,10 +127,37 @@
 <visible verticalScreen="true">false</visible>
 </image>
 
+<image name="franja1" extra="true">
+<path>./art/sistemas/fondos/franja.png</path>
+<origin>0.5 0.5</origin>
+<pos>0.10 0.159</pos>     
+<size>0.260 0.010</size>
+<linearSmooth>true</linearSmooth>
+<zIndex>71</zIndex>
+<storyboard repeat="0">
+<animation property="x" from="0.10" to="0.890" begin="0" duration="900" autoreverse="true"/>
+</storyboard>
+<pos verticalScreen="true">0.470 0.086</pos>
+<size verticalScreen="true">0.260 0.002</size>
+</image>
+
+<image name="franja2" extra="true">
+<path>./art/sistemas/fondos/franja.png</path>
+<origin>0.5 0.5</origin>
+<pos>0.890 0.935</pos>     
+<size>0.260 0.011</size>
+<linearSmooth>true</linearSmooth>
+<zIndex>71</zIndex>
+<storyboard repeat="0">
+<animation property="x" from="0.890" to="0.10" begin="0" duration="900" autoreverse="true"/>
+</storyboard>
+<pos verticalScreen="true">0.470 0.922</pos>
+<size verticalScreen="true">0.260 0.002</size>
+</image>
+
 <image name="capaopacavertical" extra="true">
 <tile>false</tile>
 <visible>false</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -144,7 +170,6 @@
 <image name="capaopaca" extra="true">
 <tile>false</tile>
 <visible>true</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -164,7 +189,6 @@
 <image name="controller" extra="true">
 <pos>0.210 0.009</pos>
 <maxSize>0.12 0.14</maxSize>
-<color>555353</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
 <path>./art/sistemas/controllers/${system.theme}.png</path>
@@ -182,8 +206,6 @@
 <rating name="md_rating">
 <pos>2.040 2.950</pos>
 <size>0.05 0.03</size>
-<color>555555</color>
-<unfilledColor>55555599</unfilledColor>
 <zIndex>292</zIndex> 
 <pos verticalScreen="true">1.080 0.810</pos>
 </rating>
@@ -288,7 +310,6 @@
 <animation property="scale" to="1.700" begin="200" duration="0300" mode="easeOut" autoreverse="false" repeat="1"/>
 <animation property="y"  to="0.850" begin="2300" duration="300" autoreverse="false" mode="easeOut" repeat="1"/>
 </storyboard>
-
 <pos verticalScreen="true">0.500 0.505</pos>
 <maxSize verticalScreen="true">0.239 0.159</maxSize>  
 </image>	
@@ -300,7 +321,6 @@
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
 <fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
-<color>00000000</color>
 <zIndex>25</zIndex>
 </text>
 
@@ -325,13 +345,12 @@
 <text name="cheevosUservertical" extra="true">
 <visible>false</visible>
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
-<text>Ⓒheevos-Ⓤsername  
-    ★${cheevos.username}☆</text>
+<text>RetroAchievements  
+    ${cheevos.username}</text>
 <pos>0.020 0.075</pos>
 <size>0.287 0.070</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
-<color>555555</color>
 <fontSize>0.026</fontSize>
 <zIndex>174</zIndex>
 <pos verticalScreen="true">0.700 0.010</pos>
@@ -340,13 +359,12 @@
 
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
-<text>Ⓒheevos-Ⓤsername  
-    ★${cheevos.username}☆</text>
+<text>RetroAchievements  
+    ${cheevos.username}</text>
 <pos>0.010 0.080</pos>
 <size>0.287 0.070</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
-<color>555555</color>
 <fontSize>0.024</fontSize>
 <zIndex>174</zIndex>
 <fontSize verticalScreen="true">0.020</fontSize>
@@ -356,7 +374,6 @@
 <text name="md_lbl_players">
 <visible>false</visible>
 <pos>1.85 0.14</pos>
-<color>00000000</color>
 <size>0 0</size>
 <zIndex>90</zIndex>
 </text>
@@ -365,8 +382,6 @@
 <visible>true</visible>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
-<textColor>555555</textColor>
-<iconColor>555555</iconColor>
 <fontSize>0.020</fontSize>
 <pos>0.020 0.9660</pos>
 <zIndex>190</zIndex>
@@ -382,7 +397,6 @@
 <pos>0.700 0.070</pos>
 <size>0.942 0.28</size>     
 <zIndex>99</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -399,7 +413,6 @@
 <pos>0.700 0.030</pos>
 <size>0.222 0.02</size>      
 <zIndex>299</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -417,7 +430,6 @@
 <pos verticalScreen="true">0.03 0.127</pos>         
 <size>0.94 0.28</size>        
 <zIndex>900</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -432,7 +444,6 @@
 <text></text>
 <fontSize>0.015</fontSize>
 <fontPath>./art/sistemas/fuentes/Roboto-Regular.ttf</fontPath>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>

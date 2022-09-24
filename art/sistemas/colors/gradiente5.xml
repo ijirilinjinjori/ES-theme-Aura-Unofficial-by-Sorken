@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>4</formatVersion>
+
+<view name="system,basic,detailed,grid,carousel,gamecarousel">
+<image name="capaopaca-fondo,capaopaca,capaopacavertical" extra="true">
+<color>fdd130</color>
+<colorEnd>F70808</colorEnd>
+<gradientType>horizontal</gradientType>
+</image>
+
+<image name="cheevos,controller,favoritos,totalgames,vecesjugados,jugados" extra="true">
+<color>555555</color>
+</image>
+
+<text name="systemInfoExtotal,systemInfoExmostPlayed,systemInfoExPlayed,infogamesplayed,Favoritos,sys_description,releaseYyear,fullName,manufacturerName,releaseYyearvertical,fullNamevertical,manufacturerNamevertical,cheevosUser2,cheevosUser" extra="true">
+<color>555555</color>
+</text>
+
+<image name="franja1" extra="true">
+<color>F70808</color>
+</image>
+
+<image name="franja2" extra="true">
+<color>fdd130</color>
+</image>
+
+
+<helpsystem name="help">
+<textColor>555555</textColor>
+<iconColor>555555</iconColor>
+</helpsystem>
+
+<text name="systemInfo">
+<color>555555</color>
+</text>
+</view>
+
+
+
+<view name="basic,detailed,grid,carousel,gamecarousel">
+<image name="controllervertical,md_favorite,md_kidgame,md_hidden,md_manual,md_cheevos,md_savestate,release,publisher,genero,time,vecesjugados" extra="static">
+<color>555555</color>
+</image>
+
+<image name="fondovideo,franja-carrusel" extra="true">
+<color>fdd13090</color>
+<colorEnd>F70808</colorEnd>
+<gradientType>horizontal</gradientType>
+</image>
+
+<image name="md_nofavorite,md_nokidgame,md_nohidden,md_nomanual,md_nocheevos,md_nosavestate" extra="static">
+<color>00000050</color>
+</image>
+
+<textlist name="gamelist">
+<selectorColor>55555590</selectorColor>
+<selectedColor>ffffff</selectedColor>
+<primaryColor>555555</primaryColor>
+</textlist>
+
+<text name="gamecarouselLogoText,gridtile,md_playcount,md_lbl_playcount,md_lastplayed,md_lbl_lastplayed,md_developer,md_lbl_developer,md_genre,md_lbl_genre,md_releasedate,md_lbl_releasedate,md_publisher,md_lbl_publisher,md_lbl_players,md_players,md_description,sys_description,md_lbl_players,cheevosUservertical,logoText,md_name">
+<color>555555</color>
+</text>
+
+<rating name="md_rating">
+<color>ffffff</color>
+<unfilledColor>ffffff</unfilledColor>
+</rating>
+
+<text name="gridtile:selected">
+<color>555555</color>
+</text>
+
+<gridtile name="selected">
+<backgroundCenterColor>555555</backgroundCenterColor>
+<backgroundEdgeColor>ffffff</backgroundEdgeColor>
+</gridtile>
+</view>
+</theme>
+
+
+
+

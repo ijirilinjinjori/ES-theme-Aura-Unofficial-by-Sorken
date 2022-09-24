@@ -44,7 +44,7 @@
 <text name="logoText">
 <fontSize>0.044</fontSize>
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<color>${baseColor}</color>
+<color>${backgroundColor}</color>
 <glowColor>ffffff</glowColor>
 <glowSize>1</glowSize>
 <lineSpacing>1.0</lineSpacing>
@@ -58,7 +58,6 @@
 <fontSize>0.037</fontSize>
 <fontPath>./art/sistemas/fuentes/RobotoCondensed-Bold.ttf</fontPath>
 <backgroundColor>00000000</backgroundColor>
-<color>ffffff</color>
 <glowColor>000000</glowColor>
 <glowSize>1</glowSize>
 <reflexion>0.40 0.0</reflexion>
@@ -137,7 +136,7 @@
 <image name="capaopacavertical" extra="true">
 <tile>false</tile>
 <visible>false</visible>
-<color>ffffff</color>
+<color>${backgroundColor}</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -150,7 +149,7 @@
 <image name="capaopaca" extra="true">
 <tile>false</tile>
 <visible>true</visible>
-<color>ffffff</color>
+<color>${backgroundColor}</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -218,12 +217,12 @@
 
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
-<text>Ⓒheevos-Ⓤsername: ★${cheevos.username}☆</text>
+<text>RetroAchievements { ${cheevos.username} }</text>
 <pos>0.010 0.110</pos>
 <size>0.500 0.0275</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
-<color>ffffff</color>
+<color>${backgroundColor}</color>
 <fontSize>0.023</fontSize>
 <zIndex>174</zIndex>
 </text>
@@ -232,7 +231,7 @@
 <visible>false</visible>
 <pos>0.160 0.020</pos>
 <maxSize>0.10 0.10</maxSize>
-<color>555353</color>
+<color>${backgroundColor}</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
 <path>./art/sistemas/controllers/${system.theme}.png</path>
@@ -245,8 +244,8 @@
 <visible>true</visible>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
-<textColor>ffffff</textColor>
-<iconColor>ffffff</iconColor>
+<textColor>${backgroundColor}</textColor>
+<iconColor>${backgroundColor}</iconColor>
 <fontSize>0.020</fontSize>
 <pos>0.053 0.9660</pos>
 <zIndex>190</zIndex>
@@ -262,7 +261,7 @@
 <pos>0.400 0.070</pos>
 <size>0.942 0.28</size>     
 <zIndex>99</zIndex>
-<color>ffffff</color>
+<color>${backgroundColor}</color>
 <glowColor>000000</glowColor>
 <glowSize>1</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -281,7 +280,7 @@
 <pos>0.400 0.030</pos>
 <size>0.222 0.02</size>      
 <zIndex>299</zIndex>
-<color>ffffff</color>
+<color>${backgroundColor}</color>
 <glowColor>000000</glowColor>
 <glowSize>1</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -301,7 +300,7 @@
 <pos verticalScreen="true">0.03 0.127</pos>         
 <size>0.94 0.28</size>        
 <zIndex>900</zIndex>
-<color>ffffff</color>
+<color>${backgroundColor}</color>
 <glowColor>000000</glowColor>
 <glowSize>1</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -318,7 +317,7 @@
 <text></text>
 <fontSize>0.015</fontSize>
 <fontPath>./art/sistemas/fuentes/Roboto-Regular.ttf</fontPath>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>

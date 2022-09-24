@@ -52,7 +52,7 @@
 <fontSize>0.044</fontSize>
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
 <color>${baseColor}</color>
-<glowColor>ffffff</glowColor>
+<glowColor>${backgroundColor}</glowColor>
 <glowSize>1</glowSize>
 <lineSpacing>1.0</lineSpacing>
 </text>
@@ -65,7 +65,6 @@
 <fontSize>0.023</fontSize>
 <fontPath>./art/sistemas/fuentes/RobotoCondensed-Bold.ttf</fontPath>
 <backgroundColor>00000000</backgroundColor>
-<color>55555599</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <reflexion>0.0 0.0</reflexion>
@@ -92,7 +91,6 @@
 <zIndex>271</zIndex>
 <pos verticalScreen="true">0.663 0.490</pos>
 <maxSize verticalScreen="true">0.1533 0.179590</maxSize>
-
 </image>
 
 <image name="logo1system" extra="true">
@@ -179,7 +177,6 @@
 <image name="capaopaca" extra="true">
 <tile>false</tile>
 <visible>true</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -213,12 +210,12 @@
 
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
-<text>Ⓒheevos-Ⓤsername: ★${cheevos.username}☆</text>
+<text>RetroAchievements { ${cheevos.username} }</text>
 <pos>0.350 0.008</pos>
 <size>0.500 0.0275</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <fontSize>0.026</fontSize>
 <zIndex>174</zIndex>
 <pos verticalScreen="true">0.290 0.070</pos>
@@ -227,7 +224,7 @@
 <image name="controller" extra="true">
 <pos>0.148 0.160</pos>
 <maxSize>0.13 0.15</maxSize>
-<color>555353</color>
+<color>${backgroundColor}</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
 <path>./art/sistemas/controllers/${system.theme}.png</path>
@@ -243,8 +240,8 @@
 <visible>true</visible>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
-<textColor>555555</textColor>
-<iconColor>555555</iconColor>
+<textColor>${backgroundColor}</textColor>
+<iconColor>${backgroundColor}</iconColor>
 <fontSize>0.020</fontSize>
 <pos>2.353 2.460</pos>
 <zIndex>190</zIndex>
@@ -255,7 +252,7 @@
 <path>./art/sistemas/icons/cantidad.png</path>
 <pos>0.343 0.440</pos>
 <maxSize>0.044</maxSize>
-<color>555353</color>
+<color>${backgroundColor}</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -267,7 +264,7 @@
 <path>./art/sistemas/icons/veces jugados.png</path>
 <pos>0.344 0.220</pos>
 <maxSize>0.054</maxSize>
-<color>555353</color>
+<color>${backgroundColor}</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -279,7 +276,7 @@
 <path>./art/sistemas/icons/gamepad.svg</path>
 <pos>0.342 0.330</pos>
 <maxSize>0.044</maxSize>
-<color>555353</color>
+<color>${backgroundColor}</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -291,7 +288,7 @@
 <path>./art/sistemas/icons/favorite.svg</path>
 <pos>0.340 0.110</pos>
 <maxSize>0.044</maxSize>
-<color>555353</color>
+<color>${backgroundColor}</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -307,7 +304,7 @@
 <pos>0.145 0.350</pos>
 <size>0.132 0.02</size>      
 <zIndex>299</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -324,7 +321,7 @@
 <pos>0.108 0.380</pos>
 <size>0.210 0.02</size>     
 <zIndex>99</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -342,7 +339,7 @@
 <pos verticalScreen="true">0.03 0.127</pos>         
 <size>0.152 0.28</size>        
 <zIndex>900</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -357,7 +354,7 @@
 <text></text>
 <fontSize>0.015</fontSize>
 <fontPath>./art/sistemas/fuentes/Roboto-Regular.ttf</fontPath>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>
@@ -472,7 +469,7 @@
 <pos>0.112 0.037</pos>
 <size>0.48 0.28</size>
 <zIndex>50</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>ffffff00</glowColor>
 <glowSize>1</glowSize>
 <zIndex>195</zIndex>
@@ -586,7 +583,7 @@ Oynandı : {binding:gamesPlayed}
 <pos>0.310 0.3675</pos>
 <size>0.48 0.28</size>
 <zIndex>50</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <zIndex>195</zIndex>
@@ -708,7 +705,7 @@ Oynanan Kere : {binding:played}
 <pos>0.310 0.147</pos>
 <size>0.48 0.28</size>
 <zIndex>50</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <zIndex>195</zIndex>
@@ -822,7 +819,7 @@ En çok oynanan : {binding:mostPlayed}
 <pos>0.250 -0.011</pos>
 <size>0.42 0.06</size>
 <zIndex>50</zIndex>
-<color>ffffff99</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <zIndex>195</zIndex>
@@ -935,7 +932,7 @@ Toplam Oyun : {binding:total}
 <pos>0.310 0.257</pos>
 <size>0.48 0.28</size>
 <zIndex>50</zIndex>
-<color>555555</color>
+<color>${backgroundColor}</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <zIndex>195</zIndex>

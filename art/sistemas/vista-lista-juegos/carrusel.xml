@@ -19,7 +19,6 @@
 <gameImage>./art/sistemas/fondos/defaultgrid.png</gameImage>
 <logoBackgroundImage>/art/fondos/deflogobk.png</logoBackgroundImage>
 <linearSmooth>true</linearSmooth>
-<scrollSound>./art/sistemas/sonidos/aura.wav</scrollSound>
 <autoLayout verticalScreen="true">5 1</autoLayout>
 <pos verticalScreen="true">0 0.300</pos>
 <size verticalScreen="true">1 0.560</size>
@@ -62,6 +61,41 @@
 <ninepatch name="gridtile.background:selected">
 <animateColorTime>0</animateColorTime>
 </ninepatch>
+
+
+<image name="franja1" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/fondos/franja.png</path>
+<origin>0.5 0.5</origin>
+<pos>0.10 0.158</pos>     
+<size>0.260 0.010</size>
+<linearSmooth>true</linearSmooth>
+<zIndex>80</zIndex>
+<storyboard repeat="0">
+<animation property="x" from="0.10" to="0.890" begin="0" duration="900" autoreverse="true"/>
+</storyboard>
+<pos verticalScreen="true">0.470 0.084</pos>
+<size verticalScreen="true">0.260 0.002</size>
+<visible verticalScreen="true">true</visible>
+</image>
+
+<image name="franja2" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/fondos/franja.png</path>
+<origin>0.5 0.5</origin>
+<pos>0.890 0.935</pos>     
+<size>0.260 0.011</size>
+<linearSmooth>true</linearSmooth>
+<zIndex>80</zIndex>
+<storyboard repeat="0">
+<animation property="x" from="0.890" to="0.10" begin="0" duration="900" autoreverse="true"/>
+</storyboard>
+<pos verticalScreen="true">0.470 0.922</pos>
+<size verticalScreen="true">0.260 0.002</size>
+<visible verticalScreen="true">true</visible>
+</image>
+
+
 
 <image name="md_thumbnail">
 <visible>true</visible>
@@ -117,7 +151,6 @@
 <image name="capaopacavertical" extra="true">
 <tile>false</tile>
 <visible>false</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -131,7 +164,6 @@
 <image name="capaopaca" extra="true">
 <tile>false</tile>
 <visible>true</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -147,13 +179,12 @@
 
 <text name="md_name">
 <visible>true</visible>
-<color>ffffff</color>
 <pos>0.335 0.216</pos>
 <size>0.30 0.05</size>
 <fontSize>0.032</fontSize>
 <fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
 <alignment>center</alignment>
-<glowColor>00000060</glowColor>
+<glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.335 0.316</pos>
@@ -163,8 +194,6 @@
 <rating name="md_rating">
 <pos>0.040 0.880</pos>
 <size>0.05 0.03</size>
-<color>555555</color>
-<unfilledColor>55555599</unfilledColor>
 <zIndex>292</zIndex> 
 <pos verticalScreen="true">2.430 0.497</pos>
 <maxSize verticalScreen="true">0 0</maxSize>
@@ -230,7 +259,6 @@
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
 <fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
-<color>00000000</color>
 <zIndex>25</zIndex>
 </text>
 
@@ -256,13 +284,12 @@
 
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
-<text>Ⓒheevos-Ⓤsername  
-    ★${cheevos.username}☆</text>
+<text>RetroAchievements  
+    ${cheevos.username}</text>
 <pos>0.755 0.060</pos>
 <size>0.450 0.070</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
-<color>ffffff</color>
 <fontSize>0.026</fontSize>
 <zIndex>174</zIndex>
 </text>
@@ -270,7 +297,6 @@
 <text name="md_lbl_players">
 <visible>false</visible>
 <pos>1.85 0.14</pos>
-<color>00000000</color>
 <size>0 0</size>
 <zIndex>90</zIndex>
 </text>
@@ -279,14 +305,139 @@
 <visible>true</visible>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
-<textColor>ffffff99</textColor>
-<iconColor>ffffff99</iconColor>
 <fontSize>0.020</fontSize>
 <pos>0.013 0.9660</pos>
 <zIndex>190</zIndex>
 <pos verticalScreen="true">0.080 0.9660</pos>
-<textColor verticalScreen="true">55555599</textColor>
-<iconColor verticalScreen="true">555555</iconColor>
 </helpsystem>	
+
+
+
+
+<text name="md_lbl_players">
+<visible>false</visible>
+<pos>3.85 0.14</pos>
+<size>0 0</size>
+<zIndex>90</zIndex>
+</text>
+	
+<text name="md_lbl_publisher">
+<pos>3.290 0.025</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+</text>
+<text name="md_publisher">
+<visible>false</visible>
+<pos>3.466 0.300</pos>
+<size>0.06 0.04</size>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.016</fontSize>
+<zIndex>194</zIndex>
+<alignment>center</alignment>
+<pos verticalScreen="true">0.300 0.270</pos>
+</text>
+	
+<text name="md_lbl_releasedate">
+<visible>false</visible>
+<pos>3.400 0.024</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+</text>
+
+<datetime name="md_releasedate">
+<visible>false</visible>
+<pos>3.565 0.300</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<size>0.11 0.05</size>
+<fontSize>0.016</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+<pos verticalScreen="true">0.415 0.265</pos>
+</datetime>
+
+<text name="md_lbl_genre">
+<visible>false</visible>
+<pos>3.530 0.025</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+</text>
+
+<text name="md_genre">
+<visible>false</visible>
+<pos>3.740 0.318</pos>
+<size>0.06 0.02</size>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.016</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+<pos verticalScreen="true">0.700 0.280</pos>
+</text>
+
+<text name="md_lbl_developer">
+<visible>false</visible>
+<pos>3.650 0.025</pos>
+<size>0.11 0.05</size>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<zIndex>194</zIndex>
+<alignment>left</alignment><fontSize>0.02</fontSize>
+</text>
+<text name="md_developer">
+<visible>false</visible>
+<pos>3.650 0.065</pos>
+<size>0.08 0.03</size>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<fontSize>0.016</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+</text>
+
+<text name="md_lbl_lastplayed">
+<visible>false</visible>
+<pos>3.299 0.610</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<size>0.11 0.05</size>
+<fontSize>0.02</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+
+</text>
+<datetime name="md_lastplayed">
+<visible>false</visible>
+<pos>3.620 0.300</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<size>0.11 0.05</size>
+<fontSize>0.016</fontSize>
+<zIndex>194</zIndex>
+<alignment>center</alignment>
+<pos verticalScreen="true">0.540 0.265</pos>
+</datetime>
+	
+<text name="md_lbl_playcount">
+<visible>false</visible>
+<pos>3.830 0.280</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<size>0.11 0.05</size>
+<fontSize>0.015</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+<pos verticalScreen="true">0.828 0.255</pos>
+</text>
+
+<text name="md_playcount">
+<visible>false</visible>
+<pos>3.850 0.299</pos>
+<fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
+<size>0.11 0.07</size>
+<fontSize>0.019</fontSize>
+<zIndex>194</zIndex>
+<alignment>left</alignment>
+<pos verticalScreen="true">0.859 0.265</pos>
+</text>
 </customView>
 </theme>

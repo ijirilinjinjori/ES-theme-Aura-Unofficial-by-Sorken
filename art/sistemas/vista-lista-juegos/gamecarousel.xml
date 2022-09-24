@@ -15,7 +15,6 @@
 <maxLogoCount>21</maxLogoCount>
 <logoRotation>8</logoRotation>
 <logoRotationOrigin>4.5 0.5</logoRotationOrigin>
-<scrollSound>./art/sistemas/sonidos/aura.wav</scrollSound>
 <logoAlignment>center</logoAlignment>   
 <imageSource>marquee</imageSource>
 </gamecarousel> 
@@ -23,8 +22,7 @@
 <text name="gamecarouselLogoText">
 <fontSize>0.030</fontSize>
 <fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
-<color>FFFFFFFF</color>
-<glowColor>000000FF</glowColor>
+<glowColor>00000000</glowColor>
 <glowSize>4</glowSize>
 <lineSpacing>1.2</lineSpacing>
 </text>
@@ -259,7 +257,6 @@
 <image name="capaopacavertical" extra="true">
 <tile>false</tile>
 <visible>false</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -276,7 +273,6 @@
 <image name="capaopaca" extra="true">
 <tile>false</tile>
 <visible>true</visible>
-<color>ffffff</color>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
@@ -293,7 +289,6 @@
 <image name="controller" extra="true">
 <pos>0.380 0.650</pos>
 <maxSize>0.24 0.25</maxSize>
-<color>555353</color>
 <rotation>0</rotation> 
 <path>./art/sistemas/controllers/default.png</path> 
 <path>./art/sistemas/controllers/${system.theme}.png</path>
@@ -337,15 +332,12 @@
 <text name="md_lbl_rating">
 <pos>2.30 0.620</pos>
 <visible>false</visible>
-<color>00000000</color>
 <fontSize>0.02</fontSize>
 </text>
 
 <rating name="md_rating">
 <pos>0.050 0.840</pos>
 <size>0.05 0.03</size>
-<color>555555</color>
-<unfilledColor>55555590</unfilledColor>
 <zIndex>292</zIndex> 
 <storyboard>
 <animation property="opacity" from="0" to="0" begin="0" duration="0" mode="linear"/>
@@ -362,7 +354,6 @@
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
 <fontPath>./art/sistemas/fuentes/Bebas Neue.ttf</fontPath>
-<color>00000000</color>
 <zIndex>25</zIndex>
 </text>
 
@@ -388,8 +379,6 @@
 <visible>true</visible>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
-<textColor>555555</textColor>
-<iconColor>555555</iconColor>
 <fontSize>0.020</fontSize>
 <pos>0.010 0.9660</pos>
 <zIndex>190</zIndex>
@@ -407,7 +396,6 @@
 <pos>0.655 0.748</pos>
 <size>0.222 0.02</size>      
 <zIndex>299</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <storyboard repeat="1">
@@ -432,7 +420,6 @@
 <pos>0.655 0.710</pos>
 <size>0.942 0.28</size>     
 <zIndex>99</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <storyboard repeat="1">
@@ -458,7 +445,6 @@
 <pos verticalScreen="true">0.03 0.127</pos>         
 <size>0.94 0.28</size>        
 <zIndex>100</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <storyboard repeat="1">
@@ -482,7 +468,6 @@
 <pos>0.655 0.710</pos>
 <size>0.942 0.28</size>     
 <zIndex>99</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -505,7 +490,6 @@
 <pos>0.655 0.748</pos>
 <size>0.222 0.02</size>      
 <zIndex>299</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -529,7 +513,6 @@
 <pos verticalScreen="true">0.03 0.127</pos>         
 <size>0.94 0.28</size>        
 <zIndex>100</zIndex>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>2</glowSize>
 <fontSize tinyScreen="true">0.065</fontSize>
@@ -549,7 +532,6 @@
 <text></text>
 <fontSize>0.015</fontSize>
 <fontPath>./art/sistemas/fuentes/Roboto-Regular.ttf</fontPath>
-<color>555555</color>
 <glowColor>00000000</glowColor>
 <glowSize>1</glowSize>
 <forceUppercase>true</forceUppercase>
@@ -565,7 +547,6 @@
 <path>./art/sistemas/icons/publisher.png</path>
 <pos>0.296 0.230</pos>
 <maxSize>0.064</maxSize>
-<color>555555</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -582,7 +563,6 @@
 <path>./art/sistemas/icons/calendario.png</path>
 <pos>0.368 0.230</pos>
 <maxSize>0.064</maxSize>
-<color>555555</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -599,7 +579,6 @@
 <path>./art/sistemas/icons/time.png</path>
 <pos>0.466 0.230</pos>
 <maxSize>0.064</maxSize>
-<color>555555</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -616,7 +595,6 @@
 <path>./art/sistemas/icons/genero.png</path>
 <pos>0.558 0.230</pos>
 <maxSize>0.064</maxSize>
-<color>555555</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -631,9 +609,8 @@
 <image name="vecesjugados" extra="static">
 <visible>true</visible>
 <path>./art/sistemas/icons/veces jugados.png</path>
-<pos>0.668 0.230</pos>
+<pos>0.678 0.230</pos>
 <maxSize>0.064</maxSize>
-<color>555555</color>
 <alignment>left</alignment>
 <linearSmooth>true</linearSmooth>
 <zIndex>250</zIndex>
@@ -646,7 +623,6 @@
 </image>
            
 <text name="md_description">
-<color>555555</color>
 <forceUppercase>0</forceUppercase>
 <fontSize>0.020</fontSize>
 <fontPath>./art/sistemas/dash_dot_square-7.ttf</fontPath>
@@ -659,7 +635,6 @@
 <animation property="opacity" from="0" to="0" begin="0" duration="0" mode="linear"/>
 <animation property="opacity" from="0" to="1" begin="2000" duration="400" mode="linear"/>
 </storyboard> 
-
 <pos verticalScreen="true">0.030 0.810</pos>
 <size verticalScreen="true">0.640 0.15</size>
 </text>
@@ -667,7 +642,6 @@
 <image name="md_savestate">
 <origin>0.5 0.5</origin>
 <pos>0.310 0.070</pos>
-<color>555555</color>
 <path>./art/sistemas/icons/SaveState.png</path>
 <maxSize>0.030 0.040</maxSize>
 <zIndex>100</zIndex> 
@@ -680,7 +654,6 @@
 
 <image name="md_nosavestate" extra="true">
 <origin>0.5 0.5</origin>
-<color>55555535</color>
 <path>./art/sistemas/icons/SaveState.png</path>
 <pos>0.310 0.070</pos>
 <maxSize>0.030 0.040</maxSize>
@@ -695,7 +668,6 @@
 <image name="md_cheevos">
 <origin>0.5 0.5</origin>
 <pos>0.370 0.070</pos>
-<color>555555</color>
 <path>./art/sistemas/icons/Contest.png</path>
 <maxSize>0.030 0.040</maxSize>
 <zIndex>100</zIndex>
@@ -708,7 +680,6 @@
 
 <image name="md_nocheevos" extra="true">
 <origin>0.5 0.5</origin>
-<color>55555535</color>
 <path>./art/sistemas/icons/Contest.png</path>
 <pos>0.370 0.070</pos>
 <maxSize>0.030 0.040</maxSize>
@@ -723,7 +694,6 @@
 <image name="md_manual">
 <origin>0.5 0.5</origin>
 <pos>0.430 0.070</pos>
-<color>555555</color>
 <path>./art/sistemas/icons/book.png</path>
 <maxSize>0.030 0.040</maxSize>
 <zIndex>100</zIndex>
@@ -736,7 +706,6 @@
 
 <image name="md_nomanual" extra="true">
 <origin>0.5 0.5</origin>
-<color>55555535</color>
 <path>./art/sistemas/icons/book.png</path>
 <pos>0.430 0.070</pos>
 <maxSize>0.030 0.040</maxSize>
@@ -756,7 +725,6 @@
 <pos>0.500 0.070</pos>
 <alignment>center</alignment>
 <fontSize>0.050</fontSize>
-<color>555555</color>
 <zIndex>150</zIndex>
 <storyboard>
 <animation property="opacity" from="0" to="0" begin="0" duration="0" mode="linear"/>
@@ -770,22 +738,20 @@
 <image name="md_hidden">
 <origin>0.5 0.5</origin>
 <pos>0.570 0.070</pos>
-<color>555555</color>
 <path>./art/sistemas/icons/hidden.svg</path>
-<size>0.04 0.06</size>
+<maxSize>0.030 0.040</maxSize>
 <zIndex>100</zIndex>
 <storyboard>
 <animation property="opacity" from="0" to="0" begin="0" duration="0" mode="linear"/>
 <animation property="opacity" from="0" to="1" begin="3000" duration="400" mode="linear"/>
 </storyboard>
-<pos verticalScreen="true">0.430 0.045</pos>
+<pos verticalScreen="true">0.430 0.060</pos>
 <fontSize verticalScreen="true">0.040</fontSize>
 <maxSize verticalScreen="true">0.040 0.060</maxSize>
 </image>
 
 <image name="md_nohidden" extra="true">
 <origin>0.5 0.5</origin>
-<color>55555535</color>
 <path>./art/sistemas/icons/hidden.svg</path>
 <pos>0.570 0.070</pos>
 <maxSize>0.030 0.040</maxSize>
@@ -801,7 +767,6 @@
 <image name="md_kidgame">
 <origin>0.5 0.5</origin>
 <pos>0.630 0.070</pos>
-<color>555555</color>
 <path>./art/sistemas/icons/kid.svg</path>
 <maxSize>0.030 0.040</maxSize>
 <zIndex>150</zIndex>
@@ -814,7 +779,6 @@
 
 <image name="md_nokidgame" extra="true">
 <origin>0.5 0.5</origin>
-<color>55555535</color>
 <path>./art/sistemas/icons/kid.svg</path>
 <pos>0.630 0.070</pos>
 <maxSize>0.030 0.040</maxSize>
@@ -829,7 +793,6 @@
 <image name="md_favorite">
 <origin>0.5 0.5</origin>
 <pos>0.690 0.070</pos>
-<color>555555</color>
 <path>./art/sistemas/icons/favorite.svg</path>
 <maxSize>0.030 0.040</maxSize>
 <zIndex>100</zIndex>
@@ -842,7 +805,6 @@
 
 <image name="md_nofavorite" extra="true">
 <origin>0.5 0.5</origin>
-<color>55555535</color>
 <path>./art/sistemas/icons/favorite.svg</path>
 <pos>0.690 0.070</pos>
 <maxSize>0.030 0.040</maxSize>
@@ -855,7 +817,6 @@
 </image>
 
 <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_lbl_releasedate">
-<color>ffffff</color>
 <forceUppercase>0</forceUppercase>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
 <fontSize>0.023</fontSize>
@@ -868,16 +829,15 @@
 	
 <text name="md_lbl_players">
 <visible>false</visible>
-<pos>1.85 0.14</pos>
-<color>00000000</color>
+<pos>3.85 0.14</pos>
 <size>0 0</size>
 <zIndex>90</zIndex>
 </text>
 	
 <text name="md_lbl_publisher">
-<pos>0.290 0.025</pos>
+<visible>false</visible>
+<pos>3.290 0.025</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555500</color>
 <fontSize>0.02</fontSize>
 <zIndex>194</zIndex>
 <alignment>left</alignment>
@@ -886,7 +846,6 @@
 <pos>0.285 0.300</pos>
 <size>0.06 0.04</size>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555599</color>
 <fontSize>0.016</fontSize>
 <zIndex>194</zIndex>
 <storyboard>
@@ -898,9 +857,9 @@
 </text>
 	
 <text name="md_lbl_releasedate">
-<pos>0.400 0.024</pos>
+<visible>false</visible>
+<pos>3.400 0.024</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555500</color>
 <fontSize>0.02</fontSize>
 <zIndex>194</zIndex>
 <alignment>left</alignment>
@@ -909,7 +868,6 @@
 <datetime name="md_releasedate">
 <pos>0.380 0.300</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555599</color>
 <size>0.11 0.05</size>
 <fontSize>0.016</fontSize>
 <zIndex>194</zIndex>
@@ -922,9 +880,9 @@
 </datetime>
 
 <text name="md_lbl_genre">
-<pos>0.530 0.025</pos>
+<visible>false</visible>
+<pos>3.530 0.025</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555500</color>
 <fontSize>0.02</fontSize>
 <zIndex>194</zIndex>
 <alignment>left</alignment>
@@ -934,7 +892,6 @@
 <pos>0.565 0.318</pos>
 <size>0.06 0.02</size>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555599</color>
 <fontSize>0.016</fontSize>
 <zIndex>194</zIndex>
 <storyboard>
@@ -946,27 +903,27 @@
 </text>
 
 <text name="md_lbl_developer">
-<pos>0.650 0.025</pos>
+<visible>false</visible>
+<pos>3.650 0.025</pos>
 <size>0.11 0.05</size>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555500</color>
 <zIndex>194</zIndex>
 <alignment>left</alignment><fontSize>0.02</fontSize>
 </text>
 <text name="md_developer">
-<pos>0.650 0.065</pos>
+<visible>false</visible>
+<pos>3.650 0.065</pos>
 <size>0.08 0.03</size>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555500</color>
 <fontSize>0.016</fontSize>
 <zIndex>194</zIndex>
 <alignment>left</alignment>
 </text>
 
 <text name="md_lbl_lastplayed">
-<pos>0.299 0.610</pos>
+<visible>false</visible>
+<pos>3.299 0.610</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555500</color>
 <size>0.11 0.05</size>
 <fontSize>0.02</fontSize>
 <zIndex>194</zIndex>
@@ -976,7 +933,6 @@
 <datetime name="md_lastplayed">
 <pos>0.445 0.300</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555599</color>
 <size>0.11 0.05</size>
 <fontSize>0.016</fontSize>
 <zIndex>194</zIndex>
@@ -991,7 +947,6 @@
 <text name="md_lbl_playcount">
 <pos>0.660 0.280</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>555555</color>
 <size>0.11 0.05</size>
 <fontSize>0.015</fontSize>
 <zIndex>194</zIndex>
@@ -1006,7 +961,6 @@
 <text name="md_playcount">
 <pos>0.680 0.299</pos>
 <fontPath>./art/sistemas/fuentes/Roboto-Black.ttf</fontPath>
-<color>55555599</color>
 <size>0.11 0.07</size>
 <fontSize>0.019</fontSize>
 <zIndex>194</zIndex>
@@ -1020,12 +974,11 @@
 
 <text name="cheevosUser" extra="true">
 <fontPath>./art/sistemas/fuentes/Scout-Light.otf</fontPath>
-<text>Ⓒheevos-Ⓤsername ★${cheevos.username}☆</text>
+<text>RetroAchievements { ${cheevos.username} }</text>
 <pos>0.038 0.133</pos>
 <size>0.400 0.0275</size>
 <origin>0 0</origin>
 <alignment>left</alignment>
-<color>555555</color>
 <fontSize>0.023</fontSize>
 <zIndex>174</zIndex>
 <storyboard>       
