@@ -21,7 +21,7 @@
 <scrollSound>./art/sistemas/sonidos/aura.wav</scrollSound>
 <systemInfoDelay>700</systemInfoDelay>
 <systemInfoCountOnly>false</systemInfoCountOnly>
-<transitionSpeed>650</transitionSpeed>
+<transitionSpeed>0</transitionSpeed>
 <minLogoOpacity>0.6</minLogoOpacity>
 <logoSize verticalScreen="true">0.35 0.1</logoSize>
 <maxLogoCount verticalScreen="true">11</maxLogoCount> 

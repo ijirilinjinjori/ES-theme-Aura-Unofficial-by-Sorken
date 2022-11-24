@@ -102,12 +102,12 @@
 <image name="franja1" extra="true">
 <path>./art/sistemas/fondos/franja.png</path>
 <origin>0.5 0.5</origin>
-<pos>0.10 0.159</pos>     
-<size>0.260 0.010</size>
+<pos>0.10 0.160</pos>     
+<size>0.260 0.005</size>
 <linearSmooth>true</linearSmooth>
 <zIndex>71</zIndex>
 <storyboard repeat="0">
-<animation property="x" from="0.10" to="0.890" begin="0" duration="900" autoreverse="true"/>
+<animation property="x" from="0.10" to="0.890" begin="0" duration="1900" autoreverse="true"/>
 </storyboard>
 <pos verticalScreen="true">0.470 0.157</pos>
 <size verticalScreen="true">0.260 0.002</size>
@@ -117,11 +117,11 @@
 <path>./art/sistemas/fondos/franja.png</path>
 <origin>0.5 0.5</origin>
 <pos>0.890 0.935</pos>     
-<size>0.260 0.011</size>
+<size>0.260 0.005</size>
 <linearSmooth>true</linearSmooth>
 <zIndex>71</zIndex>
 <storyboard repeat="0">
-<animation property="x" from="0.890" to="0.10" begin="0" duration="900" autoreverse="true"/>
+<animation property="x" from="0.890" to="0.10" begin="0" duration="1900" autoreverse="true"/>
 </storyboard>
 <pos verticalScreen="true">0.470 0.937</pos>
 <size verticalScreen="true">0.260 0.002</size>
